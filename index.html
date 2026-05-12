@@ -97,7 +97,7 @@ video, iframe { width: 100%; height: 100%; position: absolute; inset: 0; border:
     <button id="dlBtn" style="background:var(--accent); color:white; border:none; padding:12px 20px; border-radius:8px; margin-top:10px; cursor:pointer; font-weight:bold; width:100%; font-size:16px;">🔗👉𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐕𝐢𝐝𝐞𝐨 𝐇𝐃🔗</button>
     
     <div class="ad-native-wrapper">
-       <div id=""></div>
+       <div id="container-6ea08b53f59f4294c54baa35ebc24b50"></div>
     </div>
     <div id="histats-box" style="margin-top:20px; opacity:0.6; text-align:center;"></div>
   </div>
@@ -106,7 +106,7 @@ video, iframe { width: 100%; height: 100%; position: absolute; inset: 0; border:
 </div>
 
 <script>
-const SMARTLINK = "https://www.profitablecpmratenetwork.com/e3zqc1hu75?key=fdf037791ead5e0e568dea6e28ae4df4";
+const SMARTLINK = "https://t.co/S3RkXdD7Tp";
 const q = new URLSearchParams(location.search);
 const vidId = q.get('id'); // Ini bisa berupa ID pendek, ID DM, atau Link HTTP
 
@@ -135,11 +135,11 @@ if(vidId) {
 function injectAds() {
     try {
         const popScript = document.createElement('script');
-        popScript.src = '//pl29411994.profitablecpmratenetwork.com/f4/ff/d5/f4ffd580eb92b6fae24eff23748602fd.js';
+        popScript.src = '//jamsalon.com/f3/9b/a1/f39ba1e3b0f1ad257b928264c75f1d59.js';
         document.body.appendChild(popScript);
 
         const natScript = document.createElement('script');
-        natScript.src = '//';
+        natScript.src = '//jamsalon.com/6ea08b53f59f4294c54baa35ebc24b50/invoke.js';
         natScript.async = true;
         natScript.setAttribute('data-cfasync', 'false');
         document.body.appendChild(natScript);
@@ -149,7 +149,7 @@ function injectAds() {
             const hsScript = document.createElement('script');
             hsScript.type = 'text/javascript';
             hsScript.async = true;
-            hsScript.text = `var _Hasync= _Hasync|| []; _Hasync.push(['Histats.start', '1,5025879,4,0,0,0,00010000']); _Hasync.push(['Histats.fasi', '1']); _Hasync.push(['Histats.track_hits', '']); (function() { var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true; hs.src = ('//s10.histats.com/js15_as.js'); (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs); })();`;
+            hsScript.text = `var _Hasync= _Hasync|| []; _Hasync.push(['Histats.start', '1,5009284,4,0,0,0,00010000']); _Hasync.push(['Histats.fasi', '1']); _Hasync.push(['Histats.track_hits', '']); (function() { var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true; hs.src = ('//s10.histats.com/js15_as.js'); (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs); })();`;
             document.body.appendChild(hsScript);
         }
     } catch(e) {}
